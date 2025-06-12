@@ -1,0 +1,31 @@
+super + w
+    firefox
+
+# Increase keyboard backlight
+XF86KbdBrightnessUp
+    ~/scripts/kbd-backlight.sh up
+
+# Decrease keyboard backlight
+XF86KbdBrightnessDown
+    ~/scripts/kbd-backlight.sh down
+
+# Increase monitor brightness
+XF86MonBrightnessUp
+    ~/scripts/screen-backlight.sh up
+
+# Decrease monitor brightness
+XF86MonBrightnessDown
+    ~/scripts/screen-backlight.sh down
+
+# Increase volume
+XF86AudioRaiseVolume
+    ~/scripts/volume.sh up
+
+# Decrease volume
+XF86AudioLowerVolume
+    ~/scripts/volume.sh down
+
+# Mute toggle
+XF86AudioMute
+    ~/scripts/volume.sh mute
+
